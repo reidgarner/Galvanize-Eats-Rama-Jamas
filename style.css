@@ -1,0 +1,121 @@
+body {
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.nav-wrapper {
+    background-color: gray;
+}
+
+.page-footer {
+    flex: 1;
+    margin-top: 0vh;
+    background-color: gray;
+}
+
+.wrapper {
+    /* border-style: solid; */
+    /* border-color: black; */
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-a {
+    /* border-style: solid; */
+    /* border-color: red; */
+    height: 100%;
+    width: 60%;
+}
+
+.container-b {
+    border-style: solid;
+    border-color: black;
+    height: 94%;
+    width: 37%;
+    position: relative; left: 1vw; top: 2.5vh;
+    background-color: whitesmoke;
+
+}
+
+.container-x {
+    border-style: solid;
+    border-color: black;
+    height: 32%;
+    width: 95%;
+    position: relative; left: 1vw; top: 2vh;
+    background-color: whitesmoke;
+}
+
+.container-y {
+    /* border-style: solid;
+    border-color: yellow; */
+    height: 12%;
+    width: 95%;
+    position: relative; left: 1vw; top: 4vh;
+}
+
+.container-z {
+    /* border-style: solid;
+    border-color: pink; */
+    height: 47%;
+    width: 95%;
+    position: relative; left: 1vw; top: 3.5vh;
+}
+
+.input-container {
+    height: 6.5vh;
+    width: 5vw;
+    border-style: solid;
+    border-color: black;
+    position: relative; left: 4vw; bottom: 4vh;
+    background-color: whitesmoke;
+}
+
+.add-item {
+    position: relative; left: 10vw; bottom: 10.2vh;
+    height: 6vh;
+    width: 10vw;
+}
+
+.menu {
+    margin: auto;
+    position: relative; left: 15vw;
+}
+
+.menu-items {
+    position: relative; left: 2vw;
+}
+
+.person-info {
+    position: relative; left: 2vw;
+}
+
+.info-input-containers {
+    height: 6.5vh;
+    width: 39vw;
+    border-style: solid;
+    border-color: black;
+    background-color: whitesmoke;
+}
+
+.container {
+    position: relative; bottom: 1vh;
+}
+
+.quantity-2 {
+    position: relative; bottom: 3.5vh; left: 2vw;
+}
