@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    /* padding-bottom: -5vh; */
 }
 
 main {
@@ -19,24 +20,20 @@ main {
 }
 
 .page-footer {
-    flex: 1;
-    margin-top: 0vh;
     background-color: gray;
+    /* position: relative; bottom: 4.5vh; */
 }
 
 .wrapper {
-    /* border-style: solid; */
-    /* border-color: black; */
-    height: 100vh;
+    height: 80vh;
     width: 70vw;
     margin: auto;
     display: flex;
     flex-direction: row;
+    position: relative; bottom: 2vh;
 }
 
 .container-a {
-    /* border-style: solid; */
-    /* border-color: red; */
     height: 100%;
     width: 60%;
 }
@@ -44,9 +41,9 @@ main {
 .container-b {
     border-style: solid;
     border-color: black;
-    height: 94%;
+    height: 99%;
     width: 37%;
-    position: relative; left: 1vw; top: 2.5vh;
+    position: relative; left: 1vw; top: 2vh;
     background-color: whitesmoke;
 
 }
@@ -61,16 +58,12 @@ main {
 }
 
 .container-y {
-    /* border-style: solid;
-    border-color: yellow; */
     height: 12%;
     width: 95%;
     position: relative; left: 1vw; top: 4vh;
 }
 
 .container-z {
-    /* border-style: solid;
-    border-color: pink; */
     height: 47%;
     width: 95%;
     position: relative; left: 1vw; top: 3.5vh;
@@ -81,14 +74,15 @@ main {
     width: 5vw;
     border-style: solid;
     border-color: black;
-    position: relative; left: 4vw; bottom: 4vh;
+    position: relative; left: 4vw; bottom: 5.5vh;
     background-color: whitesmoke;
 }
 
 .add-item {
-    position: relative; left: 10vw; bottom: 10.2vh;
+    position: relative; left: 10vw; bottom: 11.7vh;
     height: 6vh;
     width: 10vw;
+    /* border-style: outset; */
 }
 
 .menu {
@@ -100,22 +94,63 @@ main {
     position: relative; left: 2vw;
 }
 
-.person-info {
-    position: relative; left: 2vw;
+.container {
+    position: relative; bottom: 1.25vh;
 }
 
-.info-input-containers {
+.quantity-2 {
+    position: relative; bottom: 4.5vh; left: 2vw;
+}
+
+.info-input-container-1 {
     height: 6.5vh;
     width: 39vw;
     border-style: solid;
     border-color: black;
     background-color: whitesmoke;
+    position: relative; bottom: 5vh;
 }
 
-.container {
-    position: relative; bottom: 1vh;
+.info-input-container-2 {
+    height: 6.5vh;
+    width: 39vw;
+    border-style: solid;
+    border-color: black;
+    background-color: whitesmoke;
+    position: relative; bottom: 7vh;
 }
 
-.quantity-2 {
-    position: relative; bottom: 3.5vh; left: 2vw;
+.info-input-container-3 {
+    height: 6.5vh;
+    width: 39vw;
+    border-style: solid;
+    border-color: black;
+    background-color: whitesmoke;
+    position: relative; bottom: 9vh;
+}
+
+.person-info-1 {
+    position: relative; left: 2vw; bottom: 4vh;
+}
+
+.person-info-2 {
+    position: relative; left: 2vw; bottom: 6vh;
+}
+
+.person-info-3 {
+    position: relative; left: 2vw; bottom: 8vh;
+}
+
+.deliver {
+    position: relative; bottom: 3vh; left: 1vw;
+    height: 6vh;
+    width: 39vw;
+    /* border-style: outset; */
+}
+
+.rama-jama {
+    /* object-fit: cover; */
+    /* height: 100vh;
+    width: 100vw; */
+    /* padding-top: -30vh; */
 }
