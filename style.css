@@ -145,12 +145,55 @@ main {
     position: relative; bottom: 3vh; left: 1vw;
     height: 6vh;
     width: 39vw;
-    /* border-style: outset; */
 }
 
-.rama-jama {
-    /* object-fit: cover; */
-    /* height: 100vh;
-    width: 100vw; */
-    /* padding-top: -30vh; */
+.ramaJama {
+    background-size: contain;
+    max-height: 60vh;
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+.order {
+    height: 8vh;
+    width: 30vw;
+    margin: auto;
+    position: relative; bottom: 8vh;
+}
+
+.containerf {
+    display: flex;
+    flex-direction: row;
+    position: relative; bottom: 5vh;
+}
+
+.card-panel {
+    height: 23vh;
+    width: 30vw;
+}
+
+.teal {
+    background-color: gray;
+}
+
+.cardTitle {
+    color: whitesmoke;
+    position: relative; bottom: 2.5vh;
+}
+
+.brand-logo {
+    position: relative; left: 3vw;
+}
+
+.brand-logo-2 {
+    position: relative; right: 3vw;
+}
+
+.white-text {
+    position: relative; bottom: 1vh;
+}
+
+.formButton {
+    margin: auto;
+    position: relative; bottom: 3vh;
 }
