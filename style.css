@@ -190,10 +190,22 @@ main {
 }
 
 .white-text {
-    position: relative; bottom: 1vh;
+    position: relative; bottom: 2.7vh;
 }
 
 .formButton {
     margin: auto;
     position: relative; bottom: 3vh;
+}
+
+.quantity {
+    text-align: center;
+}
+
+.info-input {
+    text-align: center;
+}
+
+.food {
+    background-color: gray;
 }
