@@ -30,7 +30,8 @@ main {
     margin: auto;
     display: flex;
     flex-direction: row;
-    position: relative; bottom: 2vh;
+    position: relative;
+    bottom: 2vh;
 }
 
 .container-a {
@@ -43,7 +44,9 @@ main {
     border-color: black;
     height: 99%;
     width: 37%;
-    position: relative; left: 1vw; top: 2vh;
+    position: relative;
+    left: 1vw;
+    top: 2vh;
     background-color: whitesmoke;
 
 }
@@ -53,20 +56,26 @@ main {
     border-color: black;
     height: 32%;
     width: 95%;
-    position: relative; left: 1vw; top: 2vh;
+    position: relative;
+    left: 1vw;
+    top: 2vh;
     background-color: whitesmoke;
 }
 
 .container-y {
     height: 12%;
     width: 95%;
-    position: relative; left: 1vw; top: 4vh;
+    position: relative;
+    left: 1vw;
+    top: 4vh;
 }
 
 .container-z {
     height: 47%;
     width: 95%;
-    position: relative; left: 1vw; top: 3.5vh;
+    position: relative;
+    left: 1vw;
+    top: 10vh;
 }
 
 .input-container {
@@ -74,12 +83,16 @@ main {
     width: 5vw;
     border-style: solid;
     border-color: black;
-    position: relative; left: 4vw; bottom: 5.5vh;
+    position: relative;
+    left: 4vw;
+    bottom: 5.5vh;
     background-color: whitesmoke;
 }
 
 .add-item {
-    position: relative; left: 10vw; bottom: 11.7vh;
+    position: relative;
+    left: 10vw;
+    bottom: 11.7vh;
     height: 6vh;
     width: 10vw;
     /* border-style: outset; */
@@ -87,19 +100,24 @@ main {
 
 .menu {
     margin: auto;
-    position: relative; left: 15vw;
+    position: relative;
+    left: 15vw;
 }
 
 .menu-items {
-    position: relative; left: 2vw;
+    position: relative;
+    left: 2vw;
 }
 
 .container {
-    position: relative; bottom: 1.25vh;
+    position: relative;
+    bottom: 1.25vh;
 }
 
 .quantity-2 {
-    position: relative; bottom: 4.5vh; left: 2vw;
+    position: relative;
+    bottom: 4.5vh;
+    left: 2vw;
 }
 
 .info-input-container-1 {
@@ -108,7 +126,8 @@ main {
     border-style: solid;
     border-color: black;
     background-color: whitesmoke;
-    position: relative; bottom: 5vh;
+    position: relative;
+    bottom: 5vh;
 }
 
 .info-input-container-2 {
@@ -117,7 +136,8 @@ main {
     border-style: solid;
     border-color: black;
     background-color: whitesmoke;
-    position: relative; bottom: 7vh;
+    position: relative;
+    bottom: 7vh;
 }
 
 .info-input-container-3 {
@@ -126,23 +146,32 @@ main {
     border-style: solid;
     border-color: black;
     background-color: whitesmoke;
-    position: relative; bottom: 9vh;
+    position: relative;
+    bottom: 9vh;
 }
 
 .person-info-1 {
-    position: relative; left: 2vw; bottom: 4vh;
+    position: relative;
+    left: 2vw;
+    bottom: 4vh;
 }
 
 .person-info-2 {
-    position: relative; left: 2vw; bottom: 6vh;
+    position: relative;
+    left: 2vw;
+    bottom: 6vh;
 }
 
 .person-info-3 {
-    position: relative; left: 2vw; bottom: 8vh;
+    position: relative;
+    left: 2vw;
+    bottom: 8vh;
 }
 
 .deliver {
-    position: relative; bottom: 3vh; left: 1vw;
+    position: relative;
+    top: 10vh;
+    left: 1vw;
     height: 6vh;
     width: 39vw;
 }
@@ -158,13 +187,15 @@ main {
     height: 8vh;
     width: 30vw;
     margin: auto;
-    position: relative; bottom: 8vh;
+    position: relative;
+    bottom: 8vh;
 }
 
 .containerf {
     display: flex;
     flex-direction: row;
-    position: relative; bottom: 5vh;
+    position: relative;
+    bottom: 5vh;
 }
 
 .card-panel {
@@ -178,34 +209,47 @@ main {
 
 .cardTitle {
     color: whitesmoke;
-    position: relative; bottom: 2.5vh;
+    position: relative;
+    bottom: 2.5vh;
 }
 
 .brand-logo {
-    position: relative; left: 3vw;
+    position: relative;
+    left: 3vw;
 }
 
 .brand-logo-2 {
-    position: relative; right: 3vw;
+    position: relative;
+    right: 3vw;
 }
 
 .white-text {
-    position: relative; bottom: 2.7vh;
+    position: relative;
+    bottom: 2.7vh;
 }
 
 .formButton {
     margin: auto;
-    position: relative; bottom: 3vh;
+    position: relative;
+    bottom: 3vh;
 }
 
 .quantity {
     text-align: center;
 }
 
-.info-input {
+.info-input-1, .info-input-2, .info-input-3 {
     text-align: center;
 }
 
 .food {
     background-color: gray;
 }
+
+.grandTotal {
+    font-size: 3vh;
+    position: absolute; 
+    bottom: 0;
+    left: 5vw;
+}
+
