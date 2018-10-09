@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    /* padding-bottom: -5vh; */
 }
 
 main {
@@ -21,7 +20,6 @@ main {
 
 .page-footer {
     background-color: gray;
-    /* position: relative; bottom: 4.5vh; */
 }
 
 .wrapper {
@@ -95,7 +93,6 @@ main {
     bottom: 11.7vh;
     height: 6vh;
     width: 10vw;
-    /* border-style: outset; */
 }
 
 .menu {
@@ -179,8 +176,6 @@ main {
 .ramaJama {
     background-size: contain;
     max-height: 60vh;
-    /* height: 100vh; */
-    /* width: 100vw; */
 }
 
 .order {
@@ -238,7 +233,9 @@ main {
     text-align: center;
 }
 
-.info-input-1, .info-input-2, .info-input-3 {
+.info-input-1,
+.info-input-2,
+.info-input-3 {
     text-align: center;
 }
 
@@ -248,8 +245,15 @@ main {
 
 .grandTotal {
     font-size: 3vh;
-    position: absolute; 
+    position: absolute;
     bottom: 0;
     left: 5vw;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    top: 30vh;
+}
