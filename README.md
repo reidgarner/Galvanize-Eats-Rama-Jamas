@@ -23,7 +23,7 @@ Allows the user to pick items from a menu, add their quantity of said items, inp
 ### Repo Link:
 - https://github.com/reidgarner/Galvanize-Eats-Rama-Jamas
 
-### Deployed site links:
+### Deployed site:
 - reids-g-eats.surge.sh
 
 ### Installation and Run:
