@@ -24,7 +24,7 @@ Allows the user to pick items from a menu, add their quantity of said items, inp
 - https://github.com/reidgarner/Galvanize-Eats-Rama-Jamas
 
 ### Deployed site:
-- reids-g-eats.surge.sh
+- https://reids-g-eats.surge.sh
 
 ### Installation and Run:
 - $ npm install lite-server
