@@ -3,7 +3,7 @@
 ## Description: 
 Allows the user to pick items from a menu, add their quantity of said items, input their name, telephone number, and address to deliver an order.
 
-## Project Images: 
+## Project Images:  
 
 ### Home Page
 
